@@ -42,6 +42,6 @@ results = Detections.from_ultralytics(output[0])
 
 # Links
 
-- __Dataset Source__: [Roboflow Universe](https://universe.roboflow.com)
+- __Dataset Source__: [Roboflow Universe](https://universe.roboflow.com/large-benchmark-datasets/wider-face-ndtcz/dataset/1)
 - __Weights & Biases__: [Run Details](https://wandb.ai/2wb2ndur/Face-Detection/overview?workspace=user-2wb2ndur) 
 - __Training Artifacts__: [training-artifacts](./fine-tune-artifacts/)
