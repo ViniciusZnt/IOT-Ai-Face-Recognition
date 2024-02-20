@@ -34,7 +34,7 @@ model = YOLO(model_path)
 
 # inference
 image_path = "/path/to/image"
-output = YOLO(Image.open(image_path))
+output = model(Image.open(image_path))
 results = Detections.from_ultralytics(output[0])
 
 ```
