@@ -1,5 +1,5 @@
 ---
-license: apache-2.0
+license: agpl-3.0
 library: ultralytics
 tags:
 - object-detection
