@@ -46,23 +46,12 @@ As bibliotecas usadas (exemplo, ajuste conforme seu código):
 - opencv-python → Processamento de imagem e captura da câmera
 - torch ou tensorflow → Modelo de IA para reconhecimento facial
 - ultralytics → YOLOv8 para detecção facial
-- python-dotenv → Carregar variáveis de ambiente
-- sqlalchemy ou pymysql → Integração com banco de dados
-- fastapi ou flask → API da aplicação
-
-Instale com:
+- face_recognition → Biblioteca para reconhecimento facial
+  Instale com:
 
 ```bash
-pip install opencv-python torch ultralytics python-dotenv fastapi uvicorn sqlalchemy
+pip install opencv-python torch ultralytics face_recognition
 ```
-
----
-
-## 📌 Próximos Passos
-
-- Treinar modelo de reconhecimento facial com dataset próprio
-- Melhorar integração com IoT (ESP32, Raspberry Pi, etc.)
-- Criar interface web para monitoramento
 
 ---
 
